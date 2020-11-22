@@ -1,0 +1,42 @@
+{
+  "name": "gramian-angular-field",
+  "version": "1.0.0",
+  "description": "A Gramian Angular Field is an image obtained from a time series, representing some temporal correlation between each time point.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest",
+    "gun-point": "node dist/example/gun-point"
+  },
+  "author": "Studio La Cosa Nostra <studiolacosanostra@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@f/hsl-to-rgb": "^1.0.0",
+    "jimp": "^0.16.1"
+  },
+  "files": [
+    "dist",
+    "*.png"
+  ],
+  "keywords": [
+    "gramian angular field",
+    "jimp"
+  ],
+  "bugs": {
+    "url": "https://github.com/rayros/gramian-angular-field/issues"
+  },
+  "homepage": "https://github.com/rayros/gramian-angular-field#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayros/gramian-angular-field.git"
+  }
+}

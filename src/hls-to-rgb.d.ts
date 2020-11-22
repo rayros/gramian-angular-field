@@ -1,0 +1,1 @@
+declare module '@f/hsl-to-rgb';
