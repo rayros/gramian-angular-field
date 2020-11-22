@@ -1,6 +1,6 @@
 {
   "name": "gramian-angular-field",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gramian Angular Field is an image obtained from a time series, representing some temporal correlation between each time point.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,8 +24,7 @@
     "jimp": "^0.16.1"
   },
   "files": [
-    "dist",
-    "*.png"
+    "dist"
   ],
   "keywords": [
     "gramian angular field",
